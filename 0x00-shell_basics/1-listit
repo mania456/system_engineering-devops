@@ -1,5 +1,3 @@
 #!/bin/bash
-$  ./1-listit
-Downloads Videos Pictures Documents
-Music
+$  ./1-listit Downloads Videos Pictures Documents Music
 $
