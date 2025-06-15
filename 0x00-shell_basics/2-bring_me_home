@@ -1,3 +1,4 @@
+#!/bin/bash
 julien@ubuntu:/tmp$ pwd
 /tmp
 julien@ubuntu:/tmp$ echo $HOME
