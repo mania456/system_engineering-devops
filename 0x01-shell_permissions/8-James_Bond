@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod +x add_exec_to_dirs.sh
+find . -type d -exec chmod a+x {} +
