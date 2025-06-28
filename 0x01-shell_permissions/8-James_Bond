@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod a+x system_egineering-devops
+chmod 755 system_egineering-devops
