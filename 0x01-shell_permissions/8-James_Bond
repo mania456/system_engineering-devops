@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod 755 system_egineering-devops
+sudo chmod 755 system_egineering-devops
