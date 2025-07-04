@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $((colon_count + 1))
+count=$(echo "$PATH" | tr ':' '\n' | wc -l)
