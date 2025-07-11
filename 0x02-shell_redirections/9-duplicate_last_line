@@ -1,2 +1,2 @@
 #!/bin/bash
-echo 'Alea iacta est ("The die is cast") is a Latin phrase...'
+tail -n 1 iacta>>iacta
