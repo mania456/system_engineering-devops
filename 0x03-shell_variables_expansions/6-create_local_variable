@@ -1,2 +1,2 @@
 #!/bin/bash
-function set_variable { local BEST="School"}
+BEST=School echo $BEST
