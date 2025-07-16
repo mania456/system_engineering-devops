@@ -1,2 +1,2 @@
 #!/bin/bash
-my_function() {local BEST="School"}
+function set_variable { local BEST="School"}
