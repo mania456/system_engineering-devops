@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# This script checks properties of the file 'school' and prints messages about its existence, type, emptiness, and permissions using if-else statements.
+# This script checks properties of the file 'school' and prints messages about its existence, type, and emptiness using if-else statements.
 
 if [ -e school ]; then
     echo "school file exists"
@@ -12,15 +12,6 @@ if [ -e school ]; then
         echo "school file is not empty"
     else
         echo "school file is empty"
-    fi
-    if [ -r school ]; then
-        echo "school file has read permission"
-    fi
-    if [ -w school ]; then
-        echo "school file has write permission"
-    fi
-    if [ -x school ]; then
-        echo "school file has execute permission"
     fi
 else
     echo "school file does not exist"
