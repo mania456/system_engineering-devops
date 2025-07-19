@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-# This script stops the 4-to_infinity_and_beyond process using pkill
-# shellcheck disable=SC2009
-pkill -f "4-to_infinity_and_beyond"
+# Kills  4-to_infinity_and_beyond as it beeing a proccess.
+
+pkill -f 4-to_infinity_and_beyond
